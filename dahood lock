@@ -232,7 +232,7 @@ game.StarterGui:SetCore("SendNotification", {
     Icon = "RBXID OR BLANK";
     Duration = "DURATION IN SECONDS";
     callbakc = bindableFunction;
-    Button1 = "Okay";
+    Button1 = "fuck off";
 })
  
 Tab3:Button("Realistic Speed Glitch (V)",function(bool)
@@ -301,13 +301,13 @@ Tab3:Button("Tryhard Anims",function(bool)
         wait(1)
         for i, player in ipairs(game.Players:GetChildren()) do
         local Animate = game.Players.LocalPlayer.Character.Animate
-    Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=782841498"
-    Animate.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=782841498"
-    Animate.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=616168032"
+    Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=892268340"
+    Animate.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=892268340"
+    Animate.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=2510242378"
     Animate.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=616163682"
-    Animate.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=1083218792"
+    Animate.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=658832070"
     Animate.climb.ClimbAnim.AnimationId = "http://www.roblox.com/asset/?id=1083439238"
-    Animate.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=707829716"
+    Animate.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=5319914476"
     game.Players.LocalPlayer.Character.Humanoid.Jump = false
         end
     end
@@ -517,7 +517,7 @@ end)
  
 local Tab7 = Window:Tab("Credits",false)
  
-Tab7:Label("madaruw#2184")
+Tab7:Label(".lolsuna (discord)")
  
 local Aiming = loadstring(game:HttpGet("https://pastebin.com/raw/vsVecTqs"))()
 Aiming.TeamCheck(false)
